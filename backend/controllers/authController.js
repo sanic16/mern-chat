@@ -70,7 +70,7 @@ const login = async(req, res) => {
             _id: user._id,
             fullName: user.fullName,
             username: user.username,
-            prefilePic: user.profilePic
+            profilePic: user.profilePic
         })
 
     } catch (error) {
